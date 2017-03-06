@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Open Sans, arial;
+	color: 6b6b6b;
+	background: f2f2f2;
+	font-size: 14px;
+}
+
+a{
+	text-decoration: none;
+	color: 6b6b6b;
+}
+
+h1, h2, h3 {
+	font-family: Roboto Slab;
+}
+
+body{
+	font-family: Open Sans;
+}
+
+header{
+	width: 100%;
+	margin: 0 auto;
+	height: 75px;
+	background: #363636;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+.divblock{
+	max-width: 1170px;
+	margin: auto;
+
+}
+
+.module1{
+	display: block;
+	float: left;
+	font-family: Roboto Slab;
+}
+
+.module1 a{
+	display: block;
+	text-align: center;
+	padding: 10px 5px;
+	color: #DADADA;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.mainmenu li{
+	list-style: none;
+	float: right;
+	text-align: center;
+	
+}
+
+header .mainmenu li a{
+	color: #FFFFFF;
+	display: block;
+	transition: color 0.5s;
+	padding: 15px 20px;
+}
+
+header .mainmenu li a:hover{
+  color: #DA4453;
+}
+
+.slider{
+	position: relative;
+}
+
+.imgarticle{
+	position: absolute; 
+	left: 0; 
+	right: 0; 
+    width: 100%;
+    max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	height: 185px;
+	bottom: 50px;
+}
+
+.slider img{
+	display: block;
+	width: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.slider section{
+	display: block;
+}
+
+.slider h1{
+ 	display: inline-block;
+    margin: 0;
+	font-size: 24px;
+	color: #fff;
+	background: rgba(218, 68, 83, 0.7);
+	font-weight: bold;
+	padding: 12px 20px;
+}
+
+.slider h4{
+  font-weight: normal;
+  margin: 0;
+	max-width: 600px;
+	color: #DDDDDD;
+	background: rgba(59, 59, 59, 0.8);
+	padding: 12px 20px;
+}
